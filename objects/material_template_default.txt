@@ -2,7 +2,7 @@ material_template_default
 
 [OBJECT:MATERIAL_TEMPLATE]
 
-[MATERIAL_TEMPLATE:STONE_TEMPLATE][REACTION_CLASS:IS_STONE]
+[MATERIAL_TEMPLATE:STONE_TEMPLATE]
 	These are the state names, adjectives and colors for the material.
 	[STATE_COLOR:ALL_SOLID:GRAY]
 	[STATE_NAME:ALL_SOLID:stone]
@@ -154,7 +154,7 @@ material_template_default
 	[ITEMS_SIEGE_ENGINE]
 	This general material classifier determines various in-game behaviors.  There are several others below.
 	[WOOD]
-	[BLOCK_NAME:plank:planks][REACTION_CLASS:IS_WOOD]
+	[BLOCK_NAME:plank:planks]
 
 [MATERIAL_TEMPLATE:SKIN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
