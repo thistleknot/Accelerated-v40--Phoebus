@@ -45,7 +45,7 @@ reaction_smelter
 [FUEL]
 [SKILL:SMELT]
 
-[REACTION:FIRST_ANVIL] No more philoophy about where that first anvil came from
+[REACTION:FIRST_ANVIL] No more philosophy about where that first anvil came from
 [NAME:forge iron anvil]
 [BUILDING:SMELTER:CUSTOM_ALT_A]
 [REAGENT:A:450:BAR:NO_SUBTYPE:METAL:IRON]
@@ -53,6 +53,27 @@ reaction_smelter
 [PRODUCT:100:1:ANVIL:NONE:IRON]
 [FUEL]
 [SKILL:FORGE_FURNITURE]
+
+[REACTION:PIG_IRON_MAKING] vanilla
+[NAME:make pig iron bars]
+[BUILDING:SMELTER:NONE]
+[REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]
+[REAGENT:B:1:BOULDER:NO_SUBTYPE:NONE:NONE][REACTION_CLASS:FLUX]
+[REAGENT:C:150:BAR:NO_SUBTYPE:COAL:NO_MATGLOSS]
+[PRODUCT:100:1:BAR:NO_SUBTYPE:METAL:PIG_IRON][PRODUCT_DIMENSION:150]
+[FUEL]
+[SKILL:SMELT]
+
+[REACTION:STEEL_MAKING] vanilla
+[NAME:make steel bars]
+[BUILDING:SMELTER:NONE]
+[REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]
+[REAGENT:B:150:BAR:NO_SUBTYPE:METAL:PIG_IRON]
+[REAGENT:C:1:BOULDER:NO_SUBTYPE:NONE:NONE][REACTION_CLASS:FLUX]
+[REAGENT:D:150:BAR:NO_SUBTYPE:COAL:NO_MATGLOSS]
+[PRODUCT:100:2:BAR:NO_SUBTYPE:METAL:STEEL][PRODUCT_DIMENSION:150]
+[FUEL]
+[SKILL:SMELT]
 
 [REACTION:IRON_MAKING] 5 times longer and 10 times more fuel-consuming than vanilla smelting
 [NAME:make iron bars]
@@ -73,7 +94,7 @@ reaction_smelter
 [SKILL:FORGE_FURNITURE]
 [AUTOMATIC]
 
-[REACTION:PIG_IRON_MAKING] Cheap iron, useless for weaponry
+[REACTION:PIG_IRON_MAKING2] Cheap iron, useless for weaponry
 [NAME:make pig iron bars]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:METAL_ORE:PIG_IRON]
@@ -83,7 +104,7 @@ reaction_smelter
 [FUEL]
 [SKILL:SMELT]
 
-[REACTION:STEEL_MAKING]	Steel is tricky even for dwarves and is neither predictable nor failsafe. Yet it is charcoal-only.
+[REACTION:STEEL_MAKING2]	Steel is tricky even for dwarves and is neither predictable nor failsafe. Yet it is charcoal-only.
 [NAME:make steel bars]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]

@@ -5,7 +5,7 @@ reaction_other
 [REACTION:TAN_A_HIDE]
    [NAME:tan a hide]
    [BUILDING:TANNER:CUSTOM_T]
-   [REAGENT:A:1:GLOB:NONE:NONE:NONE][REACTION_CLASS:SKIN][UNROTTEN]
+   [REAGENT:A:150:GLOB:NONE:NONE:NONE][UNROTTEN]
       [HAS_MATERIAL_REACTION_PRODUCT:TAN_MAT]
 
    In the product, if you want to use the reagent's material itself, use NONE instead of a reaction product class (TAN_MAT in this example).
@@ -336,7 +336,7 @@ reaction_other
 	[PRODUCT:100:1:TRAPPARTS:NONE:GET_MATERIAL_FROM_REAGENT:A]
 	[SKILL:MECHANICS]
 
-[REACTION:PLANT_TO_FRUIT]
+[REACTION:PLANT_TO_FRUIT] Not working yet
 	[NAME:clean fruits]
 	[BUILDING:FARMER:CUSTOM_B]
 	[REAGENT:plant:1:PLANT:NONE:NONE:NONE]
