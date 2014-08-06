@@ -1,0 +1,7 @@
+item_toy
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY]
+[NAME:toy:toys]
+[HARD_MAT]
